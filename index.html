@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cnn</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class='left-nav'>
+                    <div class="logo-wrapper">
+                        <img src="images/logo.png" alt="cnn-logo">
+                    </div>                
+                <ul class="main-nav">
+                    <li>Regions</li>
+                    <li>U.S. Politics</li>
+                    <li>Money</li>
+                    <li>Entertainment</li>
+                    <li>Tech</li>
+                    <li>Sport</li>
+                    <li>Travel</li>
+                    <li>Style</li>
+                    <li>Health</li>
+                    <li>Video</li>
+                    <li>VR</li>
+                </ul>
+            </nav>
+            <nav class="right-nav">
+                <div class="edition-picker">
+                    <p class="edition">International Edition +</p>
+                    <div class="edition-dropdown">
+                        <div class="edition-wrapper">
+                            <ul>
+                                <li>U.S.</li>
+                                <li>Arabic</li>
+                                <li>Espagnol</li>
+                            </ul>
+                        </div>
+                            <hr>
+                        <div class="edition-wrapper">
+                            <p>Set edition preference:</p>
+                            <div class="pickers">
+                                <input type="radio" name="edition" id="US-radio">
+                                <label for="US-radio">U.S.</label>
+                                <input type="radio" name="edition" checked="true" id="Inter-radio">
+                                <label for="Inter-radio" >International</label>
+                            </div>
+                            <button type="submit">Confirm</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-logo-wrapper">
+                    <p class="search-logo"><i class="fas fa-search"></i></p>
+                    <form class="search-form">
+                        <input type="text" placeholder="Search CNN...">
+                        <button type="submit">Search »</button>
+                    </form>
+                </div>
+                <div class="ham-nav-wrapper">
+                    <i class="fas fa-bars ham-icon"></i>
+                    <div class="ham-menu">
+                        <div class="container">
+                            <div class="list-wrapper">
+                                <h3 class="list-title">Regions</h3>
+                                <ul class="section-list">
+                                    <li>U.S.</li>
+                                    <li>Africa</li>
+                                    <li>Americas</li>
+                                    <li>Asia</li>
+                                    <li>China</li>
+                                    <li>Europe</li>
+                                    <li>Middle East</li>
+                                    <li>Opinion</li>
+                                </ul>
+                            </div>
+                            <div class="list-wrapper">
+                                <h3 class="list-title">U.S. Politics</h3>
+                                <ul class="section-list">
+                                    <li>45</li>
+                                    <li>Congres</li>
+                                    <li>Security</li>
+                                    <li>The Nine</li>
+                                    <li>Trumpmerica</li>
+                                    <li>State</li>
+                                </ul>
+                            </div>
+                            <div class="list-wrapper">
+                                <h3 class="list-title">Money</h3>
+                                <ul class="section-list">
+                                    <li>Bussines</li>
+                                    <li>Market</li>
+                                    <li>Tech</li>
+                                    <li>Luxury</li>
+                                </ul>
+                            </div>
+                            <div class="list-wrapper">
+                                <h3 class="list-title">Entertainment</h3>
+                                <ul class="section-list">
+                                    <li>Starts</li>
+                                    <li>Screen</li>
+                                    <li>Binge</li>
+                                    <li>Culture</li>
+                                    <li>Media</li>
+                                </ul>
+                            </div>
+                            <div class="list-wrapper">
+                                <h3 class="list-title">tech</h3>
+                                <ul class="section-list">
+                                    <li>Bussines</li>
+                                    <li>Culture</li>
+                                    <li>Gadgets</li>
+                                    <li>Future</li>
+                                    <li>Startups</li>
+                                </ul>
+                            </div>
+                            <div class="list-wrapper">
+                                <h3 class="list-title">Sport</h3>
+                                <ul class="section-list">
+                                    <li>Football</li>
+                                    <li>Golf</li>
+                                    <li>Tennis</li>
+                                    <li>Motorsport</li>
+                                    <li>Horseracing</li>
+                                    <li>Equestrian</li>
+                                    <li>Sailing</li>
+                                    <li>Skiing</li>
+                                </ul>
+                            </div>
+                            <div class="list-wrapper">
+                                <h3 class="list-title">Travel</h3>
+                                <ul class="section-list">
+                                    <li>Aviation</li>
+                                    <li>Business Traveller</li>
+                                    <li>Destinations</li>
+                                    <li>Features</li>
+                                    <li>Food/Drink</li>
+                                    <li>Hotels</li>
+                                    <li>Partner Hotels</li>
+                                </ul>
+                            </div>
+                            <div class="list-wrapper">
+                                <h3 class="list-title">Style</h3>
+                                <ul class="section-list">
+                                    <li>Fashion</li>
+                                    <li>Desing</li>
+                                    <li>Architecture</li>
+                                    <li>Arts</li>
+                                    <li>Autos</li>
+                                    <li>Luxury</li>
+                                </ul>
+                            </div>
+                            <div class="list-wrapper">
+                                <h3 class="list-title">Health</h3>
+                                <ul class="section-list">
+                                    <li>Diet + Fitness</li>
+                                    <li>Living Well</li>
+                                    <li>Parenting + Family</li>
+                                    <li>Vital Signs</li>
+                                </ul>
+                            </div>
+                            <div class="list-wrapper">
+                                <h3 class="list-title">Features</h3>
+                                <ul class="section-list">
+                                    <li>Freedom Project</li>
+                                    <li>Impact Your World</li>
+                                    <li>Inside Africa</li>
+                                    <li>2 degrees</li>
+                                    <li>All Features</li>
+                                </ul>
+                            </div>
+                            <div class="list-wrapper">
+                                <h3 class="list-title">Video</h3>
+                                <ul class="section-list">
+                                    <li>Video news</li>
+                                    <li>Feature shows</li>
+                                    <li>HLN</li>
+                                    <li>TV shows</li>
+                                    <li>TV Schedule</li>
+                                    <li>Faces of CNN Worldwide</li>
+                                    <li>CNNVR</li>
+                                </ul>
+                            </div>
+                            <div class="list-wrapper">
+                                <h3 class="list-title">More...</h3>
+                                <ul class="section-list">
+                                    <li>Wather</li>
+                                    <li>CNN Heroes</li>
+                                    <li>CNN Profiles</li>
+                                    <li>Leadership</li>
+                                    <li>Pressrom</li>
+                                    <li>Partner Sites</li>
+                                    <li>iReport</li>
+                                </ul>
+                            </div>
+                            <div class="ham-edition">
+                                <ul>
+                                    <img src="https://vertex-academy.com/en/cnn-clone/CNN%20-%20snapshot_files/xlogo_cnn_nav_bottom.png.pagespeed.ic.wQ0ax8sqhk.webp" alt="cnn-logo">
+                                    <li>U.S.</li>
+                                    <img src="https://vertex-academy.com/en/cnn-clone/CNN%20-%20snapshot_files/xlogo_cnn_espaniol.png.pagespeed.ic.yNWiTJgABt.webp" alt="cnn-esp">
+                                    <li>Espagnol</li>
+                                    <img src="https://vertex-academy.com/en/cnn-clone/CNN%20-%20snapshot_files/xlogo_cnn_arabic.png.pagespeed.ic.xdkGJF0c3y.webp" alt="cnn-arab">
+                                    <li>Arabic</li>
+                                </ul>
+                                <p>Set edition preference:</p>
+                                <form class="ham-pickers">
+                                    <input type="radio" name="ham-edition" id="ham-US-radio">
+                                    <label for="US-radio">U.S.</label>
+                                    <input type="radio" name="ham-edition" checked="true" id="ham-Inter-radio">
+                                    <label for="Inter-radio" >International</label>
+                                <button type="submit">Confirm</button>
+                                </form>
+                            </div>            
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class='three-part-section'>
+                <article>
+                    <h1>Searching for a lifeline</h1>
+                    <img src="https://vertex-academy.com/en/cnn-clone/CNN%20-%20snapshot_files/x170612093906-12-theresa-may-0609-large-tease.jpg.pagespeed.ic.wsFmTkRBOz.webp" alt="theresa-may">
+                    <h5>Brit PM May has lost control of her party, Parliament, policy manifesto and Brexit</h3>
+                    <hr>
+                    <p>What UK election earthquake means for the world</p>
+                    <hr>
+                    <p>Where do UK Conservatives go from here?</p>
+                </article>
+                <article>
+                    <div class="titled-image">
+                        <img src="https://vertex-academy.com/en/cnn-clone/CNN%20-%20snapshot_files/x170611180304-02-china-eastern-a330-engine-failure-sydney-medium-tease.jpg.pagespeed.ic.RzhXOUAoZk.webp" alt="engine">
+                        <p>Engine part rips off passenger jet after take off</p>
+                    </div>
+                    <div class="titled-image">
+                        <img src="https://vertex-academy.com/en/cnn-clone/CNN%20-%20snapshot_files/x170611171353-trump-wedding-crash-kiss-bride-medium-tease.jpg.pagespeed.ic.fcmAxmnWnm.webp" alt="trump">
+                        <p>Trump crashes New Jersey wedding</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="image-text">
+                        <div class="main-image-text-container">
+                            <div>
+                                Top stories
+                            </div>
+                            <img src="https://vertex-academy.com/en/cnn-clone/CNN%20-%20snapshot_files/x170611120308-macron-selfies-medium-tease.jpg.pagespeed.ic.M1HQOFwmng.webp" alt="macron">
+                        </div>
+                        <h3>Macron on course for huge gains in French parliamentary elections</h3>
+                        <hr>
+                        <p>Russia cloud settles in over Trump</p>
+                        <hr>
+                        <p>Puerto Rico votes to become 51st US state</p>
+                        <hr>
+                        <p>Arrests as South Korean military conducts 'gay witch-hunt'</p>
+                        <hr>
+                        <p>If there are Comey tapes, does Trump have to turn them over?</p>
+                        <hr>
+                        <p>Gulf crisis threatens to tear families apart</p>
+                        <hr>
+                        <p>Ex-US attorney opens up about Trump calls</p>
+                    </div>
+                </article>
+            </section>
+            <section class='three-part-section'>
+                <article class="around-wrld">
+                    <div class="image-text">
+                        <div class="main-image-text-container">
+                            <div>
+                                Around the World
+                            </div>
+                            <img src="https://vertex-academy.com/en/cnn-clone/CNN%20-%20snapshot_files/x170611163513-nadal-wins-10th-french-open-medium-tease.jpg.pagespeed.ic.QqYUnoolwa.webp" alt="macron">
+                        </div>
+                        <h3>Rafael Nadal makes history at French Open</h3>
+                        <hr>
+                        <p>Melania moves into the White House</p>
+                        <hr>
+                        <p>White House denies Trump will delay UK visit</p>
+                        <hr>
+                        <p>Iran sends planes stuffed with food to Qatar</p>
+                        <hr>
+                        <p>Qatar hires Bush attorney general</p>
+                        <hr>
+                        <p>Uber workplace culture under fire</p>
+                        <hr>
+                        <p>TV host after crash: 'I'm not dead'</p>
+                        <hr>
+                        <p>London: Fake suicide belt photos released</p>
+                    </div>
+
+                </article>
+                <article class="featured">
+                    <div class="image-text">
+                        <div class="main-image-text-container">
+                            <div>
+                                Fetured
+                            </div>
+                            <img src="https://vertex-academy.com/en/cnn-clone/CNN%20-%20snapshot_files/x170609181140-orlando-pulse-shooting-one-year-anniversary-voicemails-orig-mg-00003214-large-tease.jpg.pagespeed.ic.0utyR9xvu0.webp" alt="macron">
+                            <div>
+                                How Pulse massacre pushed some back into the closet
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-text-paragraph">
+                        <img src="https://vertex-academy.com/en/cnn-clone/CNN%20-%20snapshot_files/x170607124332-generation-wealth-tease-3-small-tease.jpg.pagespeed.ic.9FZC-DzMr_.webp" alt="macron">
+                        <p>Wealth obsession gone too far?</p>
+                    </div>
+                    <div class="image-text-paragraph">
+                        <img src="https://vertex-academy.com/en/cnn-clone/CNN%20-%20snapshot_files/x170607124044-henry-hargreaves-russia-open-small-tease.jpg.pagespeed.ic.kjOF_9QMOY.webp" alt="macron" >
+                        <p>Why these are 'meals rejected by everyone'</p>
+                    </div>
+                </article>
+                <article class="spotlight">
+                    <div class="image-text">
+                        <div class="main-image-text-container">
+                            <div>
+                                Spotlight
+                            </div>
+                        </div>
+                        <div class="image-text-paragraph">
+                            <img src="data:image/webp;base64,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" alt="macron">
+                            <p>Sharapova pulls out of Wimbledon qualifying</p>
+                        </div>
+                        <div class="image-text-paragraph">
+                            <img src="http://i2.cdn.turner.com/cnnnext/dam/assets/170606100031-fadi-boukaram-lebanon-gun-club-super-169.jpg" alt="macron" >
+                            <p>Why there are 47 Lebanons in the US</p>
+                        </div>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="ham-menu">
+            <div class="container">
+                <div class="list-wrapper">
+                    <h3 class="list-title">Regions</h3>
+                    <ul class="section-list">
+                        <li>U.S.</li>
+                        <li>Africa</li>
+                        <li>Americas</li>
+                        <li>Asia</li>
+                        <li>China</li>
+                        <li>Europe</li>
+                        <li>Middle East</li>
+                        <li>Opinion</li>
+                    </ul>
+                </div>
+                <div class="list-wrapper">
+                    <h3 class="list-title">U.S. Politics</h3>
+                    <ul class="section-list">
+                        <li>45</li>
+                        <li>Congres</li>
+                        <li>Security</li>
+                        <li>The Nine</li>
+                        <li>Trumpmerica</li>
+                        <li>State</li>
+                    </ul>
+                </div>
+                <div class="list-wrapper">
+                    <h3 class="list-title">Money</h3>
+                    <ul class="section-list">
+                        <li>Bussines</li>
+                        <li>Market</li>
+                        <li>Tech</li>
+                        <li>Luxury</li>
+                    </ul>
+                </div>
+                <div class="list-wrapper">
+                    <h3 class="list-title">Entertainment</h3>
+                    <ul class="section-list">
+                        <li>Starts</li>
+                        <li>Screen</li>
+                        <li>Binge</li>
+                        <li>Culture</li>
+                        <li>Media</li>
+                    </ul>
+                </div>
+                <div class="list-wrapper">
+                    <h3 class="list-title">tech</h3>
+                    <ul class="section-list">
+                        <li>Bussines</li>
+                        <li>Culture</li>
+                        <li>Gadgets</li>
+                        <li>Future</li>
+                        <li>Startups</li>
+                    </ul>
+                </div>
+                <div class="list-wrapper">
+                    <h3 class="list-title">Sport</h3>
+                    <ul class="section-list">
+                        <li>Football</li>
+                        <li>Golf</li>
+                        <li>Tennis</li>
+                        <li>Motorsport</li>
+                        <li>Horseracing</li>
+                        <li>Equestrian</li>
+                        <li>Sailing</li>
+                        <li>Skiing</li>
+                    </ul>
+                </div>
+                <div class="list-wrapper">
+                    <h3 class="list-title">Travel</h3>
+                    <ul class="section-list">
+                        <li>Aviation</li>
+                        <li>Business Traveller</li>
+                        <li>Destinations</li>
+                        <li>Features</li>
+                        <li>Food/Drink</li>
+                        <li>Hotels</li>
+                        <li>Partner Hotels</li>
+                    </ul>
+                </div>
+                <div class="list-wrapper">
+                    <h3 class="list-title">Style</h3>
+                    <ul class="section-list">
+                        <li>Fashion</li>
+                        <li>Desing</li>
+                        <li>Architecture</li>
+                        <li>Arts</li>
+                        <li>Autos</li>
+                        <li>Luxury</li>
+                    </ul>
+                </div>
+                <div class="list-wrapper">
+                    <h3 class="list-title">Health</h3>
+                    <ul class="section-list">
+                        <li>Diet + Fitness</li>
+                        <li>Living Well</li>
+                        <li>Parenting + Family</li>
+                        <li>Vital Signs</li>
+                    </ul>
+                </div>
+                <div class="list-wrapper">
+                    <h3 class="list-title">Features</h3>
+                    <ul class="section-list">
+                        <li>Freedom Project</li>
+                        <li>Impact Your World</li>
+                        <li>Inside Africa</li>
+                        <li>2 degrees</li>
+                        <li>All Features</li>
+                    </ul>
+                </div>
+                <div class="list-wrapper">
+                    <h3 class="list-title">Video</h3>
+                    <ul class="section-list">
+                        <li>Video news</li>
+                        <li>Feature shows</li>
+                        <li>HLN</li>
+                        <li>TV shows</li>
+                        <li>TV Schedule</li>
+                        <li>Faces of CNN Worldwide</li>
+                        <li>CNNVR</li>
+                    </ul>
+                </div>
+                <div class="list-wrapper">
+                    <h3 class="list-title">More...</h3>
+                    <ul class="section-list">
+                        <li>Wather</li>
+                        <li>CNN Heroes</li>
+                        <li>CNN Profiles</li>
+                        <li>Leadership</li>
+                        <li>Pressrom</li>
+                        <li>Partner Sites</li>
+                        <li>iReport</li>
+                    </ul>
+                </div>
+            </div>
+        </div>       
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
